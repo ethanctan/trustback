@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "outDir": "./dist",
+      "module" : "es6",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "strictPropertyInitialization": false,
+      "noImplicitAny": true,
+      "suppressImplicitAnyIndexErrors": true,
+      "ignoreDeprecations": "5.0",
+      "moduleResolution":"node",
+    },
+    "ts-node": {
+        // Tell ts-node CLI to install the --loader automatically
+        "esm": true
+    },
+    "include": ["**/*.ts", "tests/protocols.test.js", "index.js", "*.ts"],
+    "exclude": ["node_modules"]
+  }
+  

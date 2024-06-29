@@ -1,0 +1,67 @@
+
+/* poppins and unbounded fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap');
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  color: #e6e6e6
+}
+
+/* fonts */
+
+.poppins {
+  font-family: 'Poppins';
+}
+
+.unbounded {
+  font-family: 'Unbounded';
+}
+
+/* end fonts */
+
+/* custom styles */
+
+.connect-wallet {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+  overflow: hidden;
+  font-size: 0.875rem;
+  font-weight: 400 !important;
+  color: #e8ebef !important;
+  border-radius: 0.5rem;
+  background-color: #151515 !important;
+  border: 2px solid !important; /* Add transparent border */
+  border-color:#5b23a0 !important;
+  transition: 0.3s !important;
+  opacity: 1;
+  padding: 15px !important;
+}
+
+.connect-wallet:hover {
+  opacity: 0.8;
+  transition-duration: 50ms !important;
+  transition: 0.1s !important;
+}
+
+
+.gradient-stroke {
+  background: -webkit-linear-gradient(-86deg, #3fb5ff 5%, #0099ff 53%, #531eff 91%);
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 3px transparent;
+  color: #14151B;
+}
+
+.text-glow {
+  text-shadow: 0px 0px 9px #0097e862, 0px 0px 15px #ca0af558, 0px 0px 5px #ce0af557;
+}
+
+/* end custom styles */
